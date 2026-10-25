@@ -1,99 +1,94 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Bar Lerer
-    - name: Languages
-      value: Hebrew, English
+cv:
+  name: Bar Lerer
+  email: barlerer@gmail.com
 
-- title: Education
-  type: time_table
-  contents:
-    - title: M.Sc in Computer Science
-      institution: Ben-Gurion Univeristy of the Negev
-      year: 2023
-      description:
-        - "GPA: 95"
-        - "Research topic: Using Deep Learning to solve the Helmholtz equation"
-    - title: B.Sc in Computer Science and Engineering
-      institution: Delft University of Technology
-      year: 2021
-      description:
-        - "Israeli GPA: 86"
+  social_networks:
+    - network: LinkedIn
+      username: bar-lerer
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Software Engineer
-      institution: Cadence Design Systems
-      year: May 2023
-      description:
-        - Designed and implemented smart regression features
-        - Collaborating with multiple teams across the company to innovate and develop cutting-edge products
-        - Integration and development of AI solutions onto existing products for higher efficiency
+  sections:
+    Education:
+      - institution: Ben-Gurion University of the Negev
+        area: Computer Science
+        studyType: M.Sc
+        end_date: 2023
+        highlights:
+          - "GPA: 95"
+          - "Research topic: Using Deep Learning to solve the Helmholtz equation"
 
+      - institution: Delft University of Technology
+        area: Computer Science and Engineering
+        studyType: B.Sc
+        end_date: 2021
+        highlights:
+          - "Israeli GPA: 86"
 
-    - title: Teaching Assistant
-      institution: Ben-Gurion University of the Negev
-      year: Oct 2021 - Oct 2023
-      description:
-        - Assisting students with course work while providing constructive feedback
-        - Evaluating students' performance
-        - Assisting lecturers in creating and assessing tests
-        - title: "Courses:"
-          contents:
-            - Foundations of Software Engineering
-            - Workshop on Software Engineering Project
-      
+    Experience:
+      - company: Cadence Design Systems
+        position: Software Engineer
+        start_date: 2023-05
+        end_date: present
+        highlights:
+          - Designed and implemented smart regression features
+          - Collaborating with multiple teams across the company to innovate and develop cutting-edge products
+          - Integration and development of AI solutions onto existing products for higher efficiency
 
-    - title: Teaching Assistant
-      institution: Delft University of Technology
-      year: Sep 2020 - Sep 2021
-      description:
-        - Assisting students with course work while providing constructive feedback
-        - Evaluating students' performance
-        - Assisting lecturers in creating and assessing tests
-        - title: "Courses:"
-          contents:
-            - Big Data
-            - Software Engineering Methods
-            - Software Project
-    
-    
-    - title: Research Engineer
-      institution: The Web Information Systems Research Group (TU Delft)
-      year: Jul 2020 - Jun 2021
-      description:
-        - Developed Dandelion, a crowd computing chatbot, connecting researchers at TU Delft and students
-        - Designed a micro-service system architecture, built according to research specifications and with scalability in mind to allow for more than 20,000 students to use the service
-        - Using NLP techniques for personalized conversations, and using a RabbitMQ for a robust communication protocol between servers and users
+      - company: Ben-Gurion University of the Negev
+        position: Teaching Assistant
+        start_date: 2021-10
+        end_date: 2023-10
+        highlights:
+          - Assisting students with course work while providing constructive feedback
+          - Evaluating students' performance
+          - Assisting lecturers in creating and assessing tests
+          - "Courses: Foundations of Software Engineering, Workshop on Software Engineering Project"
 
+      - company: Delft University of Technology
+        position: Teaching Assistant
+        start_date: 2020-09
+        end_date: 2021-09
+        highlights:
+          - Assisting students with course work while providing constructive feedback
+          - Evaluating students' performance
+          - Assisting lecturers in creating and assessing tests
+          - "Courses: Big Data, Software Engineering Methods, Software Project"
 
+      - company: The Web Information Systems Research Group (TU Delft)
+        position: Research Engineer
+        start_date: 2020-07
+        end_date: 2021-06
+        highlights:
+          - Developed Dandelion, a crowd computing chatbot, connecting researchers at TU Delft and students
+          - Designed a micro-service system architecture, built according to research specifications and with scalability in mind to allow for more than 20,000 students to use the service
+          - Using NLP techniques for personalized conversations, and using a RabbitMQ for a robust communication protocol between servers and users
 
-    - title: Software Engineering Internship
-      institution: KPMG
-      year: Apr 2020 - Jul 2020
-      description:
-        - Developed a frictionless CAPTCHA solution that is privacy-minded
-        - Created deployment pipeline, running static analysis, unit and integration tests and continuous deployment of Docker containers to Microsoft Azure
-        - Built an extensive back-end service using Flask, Redis and PostgreSQL, which employs heuristic estimations to evaluate humans from bots
+      - company: KPMG
+        position: Software Engineering Internship
+        start_date: 2020-04
+        end_date: 2020-07
+        highlights:
+          - Developed a frictionless CAPTCHA solution that is privacy-minded
+          - Created deployment pipeline, running static analysis, unit and integration tests and continuous deployment of Docker containers to Microsoft Azure
+          - Built an extensive back-end service using Flask, Redis and PostgreSQL, which employs heuristic estimations to evaluate humans from bots
 
+    Awards:
+      - title: Dean's List
+        date: 2023
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2023
-      items: 
-        - Dean's list
+    Skills:
+      - name: Languages
+        keywords: "Python, Java, Scala"
+      - name: Frameworks
+        keywords: "PyTorch, Numpy, pandas, scikit-learn, Flask, Django"
+      - name: DevOps
+        keywords: "Docker, CI/CD, Linux, Git"
 
-- title: Skills
-  type: list
-  contents:
-    - "Languages: Python, Java, Scala"
-    - "Frameworks: PyTorch, Numpy, pandas, scikit-learn, Flask, Django"
-    - "DevOps: Docker, CI/CD, Linux, Git"
+    Languages:
+      - name: Hebrew
+        summary: Native speaker
+      - name: English
+        summary: Fluent
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Tennis 🎾 and Scuba Diving 🤿
+    Interests:
+      - name: Hobbies
+        keywords: "Tennis, Scuba Diving"
