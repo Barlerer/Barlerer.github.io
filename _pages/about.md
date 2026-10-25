@@ -33,4 +33,4 @@ the heterogeneous Helmholtz Equation.
 
 I am passionate about research applications and using theoretical basis to solve real-world problems. I have a solid Computer Science and Mathematical background, as well as experience in Artificial intelligence frameworks.
 
-I believe that having a well-thought-out system design is the foundation for any successful software development project, and I am an avid advocate for a "*plan first, program second*" approach. I am eager to leverage my passion for research and my strong problem-solving skills to make a meaningful difference in software development.
+I believe that having a well-thought-out system design is the foundation for any successful software development project, and I am an avid advocate for a "_plan first, program second_" approach. I am eager to leverage my passion for research and my strong problem-solving skills to make a meaningful difference in software development.

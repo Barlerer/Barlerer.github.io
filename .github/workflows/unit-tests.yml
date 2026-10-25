@@ -66,8 +66,10 @@ jobs:
       - name: Install JS deps 📦
         run: npm ci
 
-      - name: Run style contract lint 🧷
-        run: npm run lint:style-contract
+      # The style-contract lint enforces the thin-starter boundary (no local
+      # _includes/_layouts/_sass) for contributions to al-folio itself; it
+      # does not apply to a customized user site, which intentionally keeps
+      # local overrides (see docs/ARCHITECTURE.md).
 
       - name: Install build prerequisites 🔧
         run: |
