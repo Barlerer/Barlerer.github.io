@@ -11,7 +11,7 @@ cv:
       - institution: Ben-Gurion University of the Negev
         area: Computer Science
         studyType: M.Sc
-        end_date: 2023
+        date: 2023
         highlights:
           - "GPA: 95"
           - "Research topic: Using Deep Learning to solve the Helmholtz equation"
@@ -19,7 +19,7 @@ cv:
       - institution: Delft University of Technology
         area: Computer Science and Engineering
         studyType: B.Sc
-        end_date: 2021
+        date: 2021
         highlights:
           - "Israeli GPA: 86"
 
