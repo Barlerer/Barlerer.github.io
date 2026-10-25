@@ -27,10 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an M.Sc Deep Learning researcher and currently a student at the Ben-Gurion University of the Negev.
-My research topic is using Deep Convolutional Neural Networks to accelerate the iterative solution to
-the heterogeneous Helmholtz Equation.
+I'm a Lead Software Engineer at Cadence Design Systems, where I build AI for chip verification on the Verisium platform. My work spans regression learning for Verisium AutoFocus, explainable ML for regression data using LightGBM and SHAP, and LLM agents for engineering workflows. One of those agents, an agentic code-review system, won Best Demo at the Cadence Innovation Conference Israel.
 
-I am passionate about research applications and using theoretical basis to solve real-world problems. I have a solid Computer Science and Mathematical background, as well as experience in Artificial intelligence frameworks.
+Before Cadence, I completed my M.Sc. in Computer Science at Ben-Gurion University of the Negev, researching deep-learning preconditioners for the high-frequency Helmholtz equation. That work, which combines a U-Net CNN with multigrid, was published as a first-author paper in the SIAM Journal on Scientific Computing and presented at an ICLR 2024 workshop. I did my B.Sc. at TU Delft, where I also worked as a research engineer building conversational agents.
 
-I believe that having a well-thought-out system design is the foundation for any successful software development project, and I am an avid advocate for a "_plan first, program second_" approach. I am eager to leverage my passion for research and my strong problem-solving skills to make a meaningful difference in software development.
+I care about taking ideas from research into tools people actually use, and about designing systems carefully before building them: plan first, program second.
